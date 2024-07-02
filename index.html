@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio HNG</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Folarin</h1>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#links">Useful Links</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="brief">
+        <p>LET'S BUILD SOMETHING TOGETHER</p>
+        <h2>Hi, I'm Folarin Emmanuel A Front-End Web Developer</h2>
+      </div>
+      <section id="about">
+        <div>
+          <div class="profile">
+            <p class="content">
+              I specialize in building mobile responsive front-end UI
+              applications that connect with API and other backend technologies.
+              I am passionate about learning new technologies and understand
+              there is more than one way to accomplish a task. My goals for the
+              next two years is to master advanced ReactJS techniques, gain
+              proficiency in TypeScript to improve code quality and
+              maintainability and contribute to open-source projects to enhance
+              skills and community involvement.
+            </p>
+
+            <div class="profile-details">
+              <img
+                src="./image/Screenshot 2023-03-17 100348.png"
+                alt="Slack Profile Picture"
+                data-testid="slackProfilePicture"
+              />
+              <p data-testid="slackDisplayName">@AdenyiFolarin</p>
+              <p data-testid="slackEmail">adeniyifolarin99@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="foot">
+      <p>&copy; 2024 Folarin</p>
+      <div>
+        <ul>
+          <li>
+            <a
+              href="https://hng.tech/learn"
+              data-testid="hngLink"
+              target="_blank"
+              >HNG Learn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://keyword.dog"
+              data-testid="keywordLink"
+              target="_blank"
+              >Keyword Dog</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://scrapeanyweb.site"
+              data-testid="scrapeanywebLink"
+              target="_blank"
+              >Scrape Any Web</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="info-details">
+        <p data-testid="currentTimeUTC">Time: <span id="time"></span></p>
+        <p data-testid="currentDay">Day: <span id="day"></span></p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    padding: 1em 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    color: #013f01;
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    margin: 0;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    text-align: center;    
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #00FF00;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+section p {
+    font-size: larger;
+}
+
+
+h2 {
+    color: #3b3b3b;
+}
+
+footer ul {
+    display: flex;
+    
+}
+
+footer ul li {
+    padding-right: 20px;
+}
+
+.brief {
+    text-align: center;
+    font-size: x-large;
+    font: bolder;
+    
+}
+.about {
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile img {
+    border-radius: 50%;    
+    
+}
+
+.profile-details {
+    font-size: 1.2em;
+}
+
+.info-details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #00FF00;
+}
+
+footer {
+    background-color: #333;
+    color: white;    
+    padding: 0.5em 0;     
+    width: 100%;
+    bottom: 0;
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-details {
+        text-align: center;
+    }
+}
